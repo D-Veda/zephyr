@@ -16,13 +16,15 @@
 
 manifest:
   defaults:
-    remote: upstream
+    remote: dveda
 
   remotes:
     - name: upstream
       url-base: https://github.com/zephyrproject-rtos
     - name: babblesim
       url-base: https://github.com/BabbleSim
+    - name: dveda
+      url-base: https://github.com/D-Veda/zephyr
 
   group-filter: [-babblesim, -optional]
 
